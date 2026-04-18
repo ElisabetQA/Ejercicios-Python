@@ -1,10 +1,10 @@
-#Variables
+#Variables mi película favorita
 titulo_de_la_pelicula = "Aladdin"
-director_de_la_pelicula = "Ron Clements, John Musker"
+director_de_la_pelicula = "Ron Clements y John Musker"
 año_de_lanzamiento = 1992
 genero = "Animación, Fantasía, Musical"
 duracion_en_minutos = 90
-tiene_premmios = False
+tiene_premios = False
 
 #Imprimir las variables
 print("Título de la película:", titulo_de_la_pelicula)
@@ -12,4 +12,22 @@ print("Director de la película:", director_de_la_pelicula)
 print("Año de lanzamiento:", año_de_lanzamiento)
 print("Género:", genero)
 print("Duración en minutos:", duracion_en_minutos)
-print("¿Tiene premios?:", tiene_premmios)
+print("¿Tiene premios?:", tiene_premios)
+
+
+
+#Cambiar los valores a datos en inglés
+nuevo_titulo_de_la_pelicula = titulo_de_la_pelicula.replace ("Aladdin", "Aladdin")
+nuevo_director_de_la_pelicula = director_de_la_pelicula.replace ("Ron Clements y John Musker", "Ron Clements and John Musker")
+nuevo_genero = genero.replace ("Animación, Fantasía, Musical", "Animation, Fantasy, Musical")
+
+
+#Imprimir las variables en inglés
+print("---> NOW IN ENGLISH :D")
+print("Title:", nuevo_titulo_de_la_pelicula)
+print("Director of the film:", nuevo_director_de_la_pelicula)
+print("Year:", año_de_lanzamiento)
+print("Genre:", nuevo_genero)
+print("Duration in minutes:", duracion_en_minutos)
+print("Has awards?:", tiene_premios)
+
