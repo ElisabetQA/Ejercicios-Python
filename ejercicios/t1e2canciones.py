@@ -1,4 +1,4 @@
-#Obtener los valores del usuario de su canción favorita
+#Pedir al usuario los datos de su canción favorita
 titulo_de_la_cancion = input ("¿Cuál es tu canción favorita? ")
 artista = input ("¿Cuál es su artista? ")
 album = input ("¿A qué álbum pertenece? ")
@@ -16,7 +16,7 @@ print("La canción dura", duracion_en_segundos, "segundos")
 print("¿Tiene videclip?", tiene_videoclip)
 
 
-#Obtener los valores del usuario de la cación que menos le gusta v.2peor
+#Pedir al usuario los datos de la cación que menos le gusta v.2peor
 peor_titulo_de_la_cancion = input ("¿Cuál es la canción que menos te gusta? ")
 peor_artista = input ("¿Cuál es su artista? ")
 peor_album = input ("¿A qué álbum pertenece? ")

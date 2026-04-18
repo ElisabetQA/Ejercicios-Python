@@ -6,14 +6,12 @@ genero = "Animación, Fantasía, Musical"
 duracion_en_minutos = 90
 tiene_premios = False
 
-
-
-
+#Cambio de los valores en inglés
 nuevo_titulo_de_la_pelicula = titulo_de_la_pelicula.replace ("Aladdin", "Aladdin")
 nuevo_director_de_la_pelicula = director_de_la_pelicula.replace ("Ron Clements y John Musker", "Ron Clements and John Musker")
 nuevo_genero = genero.replace ("Animación, Fantasía, Musical", "Animation, Fantasy, Musical")
 
-
+#Imprimir los valores en inglés
 print ("Ahora en inglés :D")
 print("Title: ", nuevo_titulo_de_la_pelicula)
 print("Director of the film: ", nuevo_director_de_la_pelicula)
