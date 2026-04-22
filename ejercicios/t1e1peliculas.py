@@ -17,17 +17,16 @@ print("¿Tiene premios?:", tiene_premios)
 
 
 #Cambiar los valores a datos en inglés
-nuevo_titulo_de_la_pelicula = titulo_de_la_pelicula.replace ("Aladdin", "Aladdin")
-nuevo_director_de_la_pelicula = director_de_la_pelicula.replace ("Ron Clements y John Musker", "Ron Clements and John Musker")
-nuevo_genero = genero.replace ("Animación, Fantasía, Musical", "Animation, Fantasy, Musical")
+director_de_la_pelicula = "Ron Clements and John Musker"
+genero =  "Animation, Fantasy, Musical"
 
 
 #Imprimir las variables en inglés
 print("---> NOW IN ENGLISH :D")
-print("Title:", nuevo_titulo_de_la_pelicula)
-print("Director of the film:", nuevo_director_de_la_pelicula)
+print("Title:", titulo_de_la_pelicula)
+print("Director of the film:", director_de_la_pelicula)
 print("Year:", año_de_lanzamiento)
-print("Genre:", nuevo_genero)
+print("Genre:", genero)
 print("Duration in minutes:", duracion_en_minutos)
 print("Has awards?:", tiene_premios)
 

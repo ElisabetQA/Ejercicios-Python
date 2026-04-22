@@ -15,8 +15,8 @@ total_gorra = gorra * cantidad_gorra
 Total_compra = total_camiseta + total_sudadera + total_gorra
 
 #Añadir el IVA
-Total_compra_IVA = Total_compra +((Total_compra * 21)/100)
+Total_compra_con_IVA = Total_compra +((Total_compra * 21)/100)
 
 
 #imprimir total compra
-print("Total compra", Total_compra_IVA, "euros")
+print("Total compra", Total_compra_con_IVA, "euros")
