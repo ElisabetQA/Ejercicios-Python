@@ -13,9 +13,12 @@ def ruletadecolores (color):
     return mensaje
 
 #Función pedir color al ususario
-color = input("Elige un color: rojo · verde · azul · amarillo · morado (escríbelo en minúsculas) ")
+def pedir_color ():
+    color = input("Elige un color: rojo · verde · azul · amarillo · morado (escríbelo en minúsculas) ")
+    return color
 
 #Llama a la ruleta de colores para que nos diga el mensaje
+color = pedir_color ()
 mensaje = ruletadecolores (color)
 
 #Imprime mensaje
