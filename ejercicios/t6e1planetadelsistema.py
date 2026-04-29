@@ -1,4 +1,4 @@
-#Lista de planetas, se añade en la lista el cero para pedir al usuario del 1 al 8
+#Lista de planetas
 planetas = ["Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno", "Urano", "Neptuno"]
 
 #Función pedir al usuario un número del 1 al 8
